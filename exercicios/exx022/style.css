@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+@font-face {
+    font-family:idroid;
+    src: url(pacote-projeto-d010/fontes/idroid.otf);
+    }
+@font-face {
+    font-family: Bebas Neue;
+    src: url(bebas_neue/BebasNeue-Regular.otf);
+}
+
+*{
+    margin: 0;    
+}
+
+body {
+       background-color: #83E1AD;        
+}
+
+header {   
+    background: rgb(6,61,30);
+    background: linear-gradient(0deg, rgba(6,61,30,1) 0%, rgba(47,168,102,1) 59%);
+    text-align: center;
+    color: #ffffff;    
+}
+
+header > h1 {
+    padding: 15px 20px;
+    font-family: Bebas Neue;    
+}
+
+header > p {
+    padding: 15px 20px; 
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color:#063D1E;
+    padding: 5px;        
+}
+
+nav > a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0px 10px;
+    font-size: small; 
+    font-family: Bebas Neue;
+         
+}
+
+nav > a:hover{
+    background-color: #3ddc8573;
+    padding: 8px 8px 5px 8px;
+    border-radius: 3px;
+}
+
+main {
+    background-color: #ffffff;
+    margin: 0 10% 5px;
+    border-radius: 0 0 5px 5px; 
+    padding: 10px;    
+    min-width: 400px;
+    max-width: 800px; 
+}
+
+article > picture { text-align: center;
+    
+}
+article > h1 {
+    color: #063D1E;
+    font-family: idroid;
+}
+article > h2 {
+    color: #063D1E;
+    background: rgb(255,255,255);
+    background: linear-gradient(274deg, rgba(255,255,255,1) 0%, rgba(131,225,173,0.9248074229691877) 59%);
+    font-family:idroid;
+}
+
+article > p {
+    padding: 10px;
+    text-indent: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.linkexterno {
+    color: #063D1E;
+    background-color:#83E1AD;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.imglink{
+    height: 11px;
+    background-color: #83E1AD;
+    padding: 3px 3px 0px 10px;
+}
+
+aside{
+    background-color: #c5ebd6;
+    border-radius: 5px;    
+}
+
+aside > h3 {
+    background-color: #3DDC84;
+    color: #ffffff;
+    padding: 5px;
+    border-radius: 5px 5px 0px 0px;   
+}
+
+aside > p {
+    padding: 10px;
+    text-indent: 30px;
+}
+
+footer {
+    background-color: #063D1E;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
